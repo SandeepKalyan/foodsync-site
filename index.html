@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>foodsync</title>
+<style>
+  body { font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; color: #1c2024; background: #fbfbf9;
+         max-width: 40rem; margin: 0 auto; padding: 3rem 1rem; }
+  h1 { font-size: 1.9rem; margin: 0 0 .3rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .4rem; }
+  .lead { color: #4a5158; margin-top: 0; }
+  a { color: #0b5cad; }
+  footer { margin-top: 3rem; font-size: .9rem; color: #5a6168; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e8ea; background: #15181b; }
+    .lead, footer { color: #a3abb3; }
+    a { color: #7db8f2; }
+  }
+</style>
+</head>
+<body>
+<h1>foodsync</h1>
+<p class="lead">A personal food-log delivery tool.</p>
+
+<p>foodsync is a small program that runs on its owner's own computer. It takes the meals its owner
+has already logged (name, time, calories, protein, carbohydrate, fat and a few micronutrients) and
+copies each one into the owner's own Google Health account, so that the food log shows up next to
+their other health data.</p>
+
+<h2>Who it is for</h2>
+<p>One person: its owner. foodsync is not a public service, has no sign-up and no user accounts,
+and is not offered to anyone else.</p>
+
+<h2>What it does with Google Health</h2>
+<ul>
+  <li>It adds nutrition entries to the owner's Google Health account, and can correct or remove
+      the entries that it added itself.</li>
+  <li>It reads the owner's body measurements (weight) so that the owner can see their weigh-ins
+      beside their food log.</li>
+</ul>
+<p>It asks Google for exactly those two permissions and nothing else.</p>
+
+<h2>Where it runs</h2>
+<p>On the owner's computer. There is no foodsync server and no foodsync database on the internet.</p>
+
+<h2>Privacy</h2>
+<p>The <a href="privacy.html">privacy policy</a> says what is read, what is written, where it is
+kept and how to switch it off.</p>
+
+<footer>
+  <p><a href="privacy.html">Privacy policy</a></p>
+</footer>
+</body>
+</html>
